@@ -46,3 +46,14 @@ function sortearAmigo() {
         }    
     }
 }
+
+function reiniciarjuego () {
+    let ul3 = document.getElementById('resultado');
+    ul3.innerHTML = "";
+    let ul4 = document.getElementById('listaAmigos');
+    ul4.innerHTML = "";
+    arrayNombres = [];
+    arrayNombresSorteados = [];
+}
+
+
